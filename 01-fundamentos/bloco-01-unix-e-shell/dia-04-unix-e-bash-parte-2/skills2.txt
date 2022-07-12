@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Design Patterns
+Javascript
+Node.js
+Git
+PHP
