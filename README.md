@@ -1,1 +1,1 @@
-#Trybe _[Link da instituição](https://www.betrybe.com/formacao-desenvolvimento-web)_
+# [Trybe](https://www.betrybe.com/formacao-desenvolvimento-web)
