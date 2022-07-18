@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <title>Exercícios 3.2 (CSS Básico)</title>
     <style>
+        body{
+          font-size: 16px;
+          font-style: italic;
+          text-align: center;
+        }
+        
+        p{
+          font-weight: bold;
+          font-size: 3em;
+          line-height: 70px
+        }
+
         h1{
           font-size: 65px;
-          color: lightseagreen
+          color: lightseagreen;
+          font-family: sans-serif;
+          text-decoration: underline;
         }
 
         ul{
@@ -17,15 +31,28 @@
           color: lightseagreen;
           color: darkblue;
         }
+
+        #yellow-line{
+          background-color: yellow;
+        }
+
+        #red-line{
+          background-color: rgb(231, 16, 16);
+        }
+
+        #brown-line{
+          background-color: rgb(136, 28, 28);
+          color: aquamarine;
+        }
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
     <p class="first-style">Qual é a sua cor favorita?</p>
     <ul class="first-style">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="yellow-line">Amarelo</li>
+      <li id="red-line">Vermelho</li>
+      <li id="brown-line">Marrom</li>
     </ul>
   </body>
 </html>
