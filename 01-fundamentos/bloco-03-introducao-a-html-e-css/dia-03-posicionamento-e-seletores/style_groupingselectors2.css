@@ -1,0 +1,35 @@
+div:hover {
+    border:1px solid cornflowerblue;
+}
+
+div:nth-of-type(1) h3 {
+    color: rgb(228, 228, 4);
+    font-family: monospace;
+}
+
+div:nth-of-type(2) h3 {
+    color: green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+div:nth-of-type(3) h3 {
+    color: violet;
+    padding: 20px;/*Making 3th div being bigger than others, topic 4 of exercise*/
+    text-decoration: underline overline wavy red 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div:nth-of-type(4) h3 {
+    color:darkslateblue;
+    letter-spacing: 1em;
+}
+
+div:nth-of-type(5) h3 {
+    color:lightseagreen;
+    text-transform: lowercase;
+}
+
+div:nth-of-type(2n+1) h3 {
+    font-style: italic;
+}
