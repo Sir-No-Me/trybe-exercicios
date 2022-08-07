@@ -100,3 +100,10 @@ function convertPercentToNote(percent){
     return 'F';
   }
 }
+
+function someEvenNumber(n1, n2, n3){//Constraint: use just one if struct...
+  if(n1%2 == 0 || n2%2 == 0 || n3%2 == 0){
+    return true;
+  }
+  return false;
+}
