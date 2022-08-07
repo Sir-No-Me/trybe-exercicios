@@ -114,3 +114,10 @@ function someOddNumber(n1, n2, n3){
   }
   return false;
 }
+
+function profitAtThousandSales(cost, salePrice){
+  if(cost < 0 || salePrice < 0)
+    return 'Invalid input';
+  // let txProductCost = cost*0.2;
+  return salePrice-(cost+(cost*0.2));
+}
