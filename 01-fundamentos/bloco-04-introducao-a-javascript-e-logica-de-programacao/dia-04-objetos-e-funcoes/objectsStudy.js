@@ -10,14 +10,23 @@ let stringResult =  '';
 
 let j=0;
 
-for(i in player){
-    stringResult += ' ' + player[i];
-    if(typeof player[i] == 'object' && typeof player[i].isArray === false){
-        for(j in player[i]){
-            stringResult += ' ' + player[i][j];
-        }
-    }
+for(let i in player){
+  stringResult += ' ' + player[i];
+  if(typeof player[i] == 'object' && Array.isArray(player[i]) == 'false'){//Not working yet
+      for(j in player[i]){
+          stringResult += ' ' + player[i][j];
+      }
+  }
 }
+
+// for(key in player){
+//     stringResult += ' ' + key;
+//     if(typeof key == 'object' && typeof Array.isArray(key) == 'false'){
+//         for(j in key){
+//             stringResult += ' ' + key[j];
+//         }
+//     }
+// }
 
 console.log(stringResult);
 console.log('A jogadora ' + player.name + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes.');
