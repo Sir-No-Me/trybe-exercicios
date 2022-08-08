@@ -152,5 +152,3 @@ function netSalary(grossSalary){
   }
   return grossSalary-tax;
 }
-
-console.log(netSalary(1700));
