@@ -8,11 +8,28 @@
     margin-inline-end: 0;
     margin-block: 0;
     margin-inline: 0;
+    color: rgb(131, 197, 241);
     /* border: 1px solid black; */
 }
 
 body{
-    background-color: rgb(250, 204, 185);
+  background-image: url(./deep-ocean-warming-as-climate-changes-l.jpg);
+  background-size: cover;
+  
+}
+
+header {
+  margin-left: 200px;
+  margin-top: 150px;
+  margin-right: 600px;
+  background-color: rgb(3, 10, 35);
+  border-radius: 8px;
+  border: 1px solid rgb(131, 197, 241);
+}
+
+h1 {
+  padding: 2%;
+  color:rgb(131, 197, 241);
 }
 
 table, tr, td, th{
@@ -29,17 +46,17 @@ table, tr, td, th{
 }
 
 #container{
-    background-color: tan;    
+    /* background-color: tan;     */
     /* margin: 0px; */
     /* height: 100%; */
     /* margin: 100px; */
     /* display: flex;*/
     /* padding: 2em 1em; */
-    text-align: center;
+    /* text-align: center; */
     /* position: absolute;
     left: 10px; */
-    width: max-content;
-    margin-left: 25%;
+    /* width: max-content; */
+    /* margin-left: 25%; */
     
     /* justify-content: space-between; */
     /* margin-top: 0px;
@@ -56,7 +73,7 @@ table, tr, td, th{
 }
 h1{
     /*  */
-    display: inline-block;
+    /* display: inline-block; */
     /* padding-left: 1em; */
     /* margin-block-start: 0px;
     margin-block-end: 0px; */
